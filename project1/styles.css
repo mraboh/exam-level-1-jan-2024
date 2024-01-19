@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat';
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td,
+th
+{
+    border-bottom: 1px solid black;
+}
+thead tr {
+    height: 40px;
+}
+.th1 {
+    background-color: #ff4500;
+    margin-left: 5px;
+}
+.th2 {
+    background-color: #1e90ff;
+}
+.th3 {
+    background-color: #008081;
+}
+td {
+    padding: 5px 39px;
+    text-align: center;
+}
+.tf1 {
+    background-color: #ff4500;
+    border: none;
+    padding: 5px;
+}
+.tf2 {
+    background-color: #1e90ff;
+    border: none;
+    padding: 5px;
+}
+.tf3 {
+    background-color: #008081;
+    border: none;
+    padding:5px;
+}

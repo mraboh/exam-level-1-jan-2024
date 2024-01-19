@@ -1,0 +1,80 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right bottom, rgb(0, 174, 255), purple);
+    border-radius: 8px;
+    padding-top: 50px;
+}
+.addidas_website{
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 2em;
+    margin: auto;
+    border-radius: 12px;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.addidas h3{
+    font-family: 'montserrat';
+}
+.addidas p{
+    padding-top: 4px;
+}
+.addidas img{
+    width: 300px;
+    height: 200px;
+}
+.colours{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+}
+.before{
+    display: flex;
+    gap: 5px;
+}
+.blue{
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.red{
+    background-color: rgba(231, 4, 42, 0.927);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    outline-offset: 2px;
+    outline: 1px solid  rgba(231, 4, 42, 0.927);
+}
+.yellow{
+    background-color: yellow;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.after{
+    font-family: 'montserrat';
+    font-size: 20px;
+}
+.after:last-child{
+    font-size: 10px;
+}
+.after p{
+    font-size: large;
+}
+button{
+    background: linear-gradient(to right, rgb(0, 174, 255), purple);
+    padding: 10px 60px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 2em;
+    width:100%;
+}
